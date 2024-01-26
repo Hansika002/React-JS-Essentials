@@ -1,6 +1,6 @@
 const Content = () => {
     const handleNameChange = () => {
-        const names = ['Bob', 'Kevin', 'Dave'];
+        const names = ['Kate', 'Sam', 'Bob'];
         const int = Math.floor(Math.random() * 3);
         return names[int];
       }
